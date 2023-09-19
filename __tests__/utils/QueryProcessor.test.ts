@@ -42,5 +42,9 @@ describe("QueryProcessor", () => {
     test('should get largest number', () => {
         expect(QueryProcessor("Which of the following numbers is the largest: 64, 50, 4?")).toEqual("64");
     });
+
+    test('should multiply numbers', () => {
+        expect(QueryProcessor("What is 32 multiplied by 50?")).toEqual("1600");
+    });
     
 });
