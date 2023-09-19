@@ -46,5 +46,9 @@ describe("QueryProcessor", () => {
     test('should multiply numbers', () => {
         expect(QueryProcessor("What is 32 multiplied by 50?")).toEqual("1600");
     });
+
+    test('should minus numbers', () => {
+        expect(QueryProcessor("What is 50 minus by 25?")).toEqual("25");
+    });
     
 });
